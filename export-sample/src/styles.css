@@ -1,0 +1,98 @@
+/*
+Copyright 2023 Adobe. All rights reserved.
+This file is licensed to you under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License. You may obtain a copy
+of the License at http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under
+the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+OF ANY KIND, either express or implied. See the License for the specific language
+governing permissions and limitations under the License.
+*/
+
+/* import the global stylesheets */
+@import '@spectrum-web-components/styles/all-medium-light.css';
+@import '@spectrum-web-components/styles/typography.css';
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #export, #import {
+    margin-top: 20px;
+  }
+  
+  #square, #square-2 {
+    height: 275px;
+    width: 275px;
+    border: 1px solid lightgray;
+    text-align: center;
+    overflow-y: scroll;
+    margin-top: 10%;
+  }
+  
+  #prev, #prev-2 {
+    padding-top: 45%;
+    padding-bottom: 50%;
+  }
+  
+  #download-button, #preview-button, #add-button {
+    margin-top: 20px;
+  }
+  
+  /* Labels */
+  sp-field-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Input Fields */
+  sp-picker, sp-number-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #backgroundColor, #quality {
+    width: 200px;
+  }
+  
+  #quality-text, #background, #config {
+    margin-top: 5%;
+  }
+  
+  /* Divider */
+  sp-divider {
+    height: 2px;
+    background-color: lightgray;
+    margin-top: 20px;
+  }
+  
+  /* Toast Notification */
+  sp-toast {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-top: 7%;
+    display: none;
+  }
+  
+  /* Button Styles */
+  sp-button {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Custom Error */
+  #error {
+    display: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
